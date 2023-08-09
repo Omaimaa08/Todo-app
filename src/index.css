@@ -1,0 +1,19 @@
+button {
+
+  background-color: #24c9ae;
+  color: #333; 
+  border-color: #333; /* Add a border color for contrast */
+  transition: background-color 0.25s, color 0.25s, border-color 0.25s;
+}
+button:hover {
+  background-color: #babab3; /* Lighten the background color on hover */
+  color: #000; /* Darken the text color on hover */
+  border-color: #646cff; /* Use the accent color for border on hover */
+}
+button:focus,
+button:focus-visible {
+  
+  
+  border-color: #646cff; /*focus */
+  box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.25); /* subtle focus indicator */
+}
